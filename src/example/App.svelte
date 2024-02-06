@@ -38,7 +38,7 @@
     {
       id: '3',
       type: 'output',
-      data: { label: 'Output A' },
+      data: { label: 'Output C' },
       position: { x: 650, y: 25 },
       targetPosition: Position.Left
     },
