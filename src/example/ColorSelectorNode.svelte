@@ -6,20 +6,20 @@
   export let data: $$Props['data'];
   export let isConnectable: $$Props['isConnectable'];
 
-  const { color } = data;
+  const { title } = data;
 </script>
 
 <Handle type="target" position={Position.Left} style="background: #555;" {isConnectable} />
 <div>
-  Custom Color Picker Node: <strong>{$color}</strong>
+ <strong>{$title}</strong>
 </div>
 <input
   class="nodrag"
-  type="color"
+  type="text"
   on:input={(event) => {
-    $color = event.currentTarget.value;
+    $title = event.currentTarget.value;
   }}
-  value={$color}
+  value={$title}
 />
 <Handle
   type="source"

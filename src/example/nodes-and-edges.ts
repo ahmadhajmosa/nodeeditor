@@ -12,8 +12,9 @@ export const initialNodes: Node[] = [
   },
   {
     id: '2',
-    data: { label: 'node 2' },
+    data: {title: 'Stackholders'},
     type: 'selectorNode',
+
     position
   },
   {
