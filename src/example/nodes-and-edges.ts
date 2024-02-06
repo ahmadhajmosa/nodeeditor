@@ -40,24 +40,7 @@ export const initialNodes: Node[] = [
     id: '3',
     data: { label: 'node 3' },
     position
-  },
-  {
-    id: '4',
-    data: { label: 'node 4' },
-    position
-  },
-  {
-    id: '5',
-    data: { label: 'node 5' },
-    position
-  },
-  {
-    id: '6',
-    type: 'output',
-    data: { label: 'output' },
-    position
-  },
-  { id: '7', type: 'output', data: { label: 'output' }, position }
+  }
 ];
 
 export const initialEdges: Edge[] = [
