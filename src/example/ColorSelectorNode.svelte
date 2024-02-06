@@ -35,13 +35,7 @@
   style="bottom: 10px; top: auto; background: #555;"
   {isConnectable}
 />
-<Handle
-  type="source"
-  position={Position.Right}
-  id="b"
-  style="bottom: 10px; top: auto; background: #555;"
-  {isConnectable}
-/>
+
 <style>
   :global(.svelte-flow__node-selectorNode) {
     font-size: 12px;

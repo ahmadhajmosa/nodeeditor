@@ -10,9 +10,12 @@
     type Node,
     type Edge
   } from '@xyflow/svelte';
+  import ColorSelectorNode from './ColorSelectorNode.svelte';
 
   import '@xyflow/svelte/dist/style.css';
-
+  const nodeTypes = {
+    selectorNode: ColorSelectorNode
+  };
   import { initialNodes, initialEdges } from './nodes-and-edges';
 
   const dagreGraph = new dagre.graphlib.Graph();
@@ -73,6 +76,7 @@
   <SvelteFlow
     {nodes}
     {edges}
+    {nodeTypes}
     fitView
     connectionLineType={ConnectionLineType.SmoothStep}
     defaultEdgeOptions={{ type: 'smoothstep', animated: true }}
