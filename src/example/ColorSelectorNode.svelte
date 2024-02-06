@@ -40,7 +40,7 @@
   :global(.svelte-flow__node-selectorNode) {
     font-size: 12px;
     background: #eee;
-    border: 1px solid #555;
+    border: 1px solid #6a0606;
     border-radius: 5px;
     text-align: center;
   }
